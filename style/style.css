@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.img_div {
+    /* border: 1px black solid;  */
+    /* border-radius: 50%;  */
+    height: 350px;
+    width: 50px;
+    /* aspect-ratio: 9 / 16; */
+    margin: auto;
+    background-image: url('../images/me2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main_div {
+    box-shadow: -1px 13px 14px -12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 13px 14px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 13px 14px -12px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    border: .5px solid lightslategray;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+    padding-left: 1.5rem;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h5 {
+    padding-left: 1.5rem;
+}
+
+.icon_container i {
+    font-size: 2.25rem;
+    margin-right: 1rem;
+}
+
+.info_div {
+    background-color: rgb(212, 235, 255);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+table td {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.skill_div {
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: rgb(144, 188, 226);
+    text-wrap: auto;
+    padding: .5rem 1rem;
+    margin: .24rem .75rem;
+    align-content: center;
+}
+
+.skill_div:hover {
+    background-color: rgb(78 173 255);
+    box-shadow: 2px 2px 15px 0px rgba(34,103,166,0.75);
+    -webkit-box-shadow: 2px 2px 15px 0px rgba(34,103,166,0.75);
+    -moz-box-shadow: 2px 2px 15px 0px rgba(34,103,166,0.75);
+    /* border: .5px solid #85a9d8; */
+}
